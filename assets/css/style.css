@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container{
+    height: 100vh;
+}
+
 .jumbo_wrap{
-    height: 200px;
+
 }
