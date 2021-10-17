@@ -41,7 +41,7 @@
   }
 
   .thumb_img{
-    width: 200px;
+    width: 220px;
     height: 100px;
     object-fit: cover;
   }
@@ -74,14 +74,6 @@
     -webkit-user-select: none;
   }
   
-
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
- 
   /* Container for image text */
   .caption{
     position: absolute;
@@ -110,5 +102,6 @@
   .active,
   .demo:hover {
     opacity: 1;
+    border: 2px solid white;
   }
   
